@@ -1,16 +1,16 @@
-/* Sets the universal selector of the element */
+/* Sets the universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Sets the background color of the body to white */
+/* Body element selector contains all contents of HTML document and sets the background color of the body to white */
 body {
     background-color: #d9dcd6;
 }
 
-/* Sets the parameters of the header */
+/* Header element sets the parameters of the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,7 +60,7 @@ p {
     font-size: 16px;
 }
 
-/* Sets the parameters of the self-cotained content (image)*/
+/* Figure element sets the parameters of the self-cotained content (image)*/
 figure {
     height: 800px;
     width: 100%;
@@ -70,25 +70,26 @@ figure {
     background-position: center;
 }
 
-/* Sets the parameters of the position of the content (image) to the left of the container*/
+/* Class selector selects all elements with that class and sets the parameters of the position of the content (image) to the left of the container*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Sets the parameters of the position of the content (image) to the right of the container*/
+/* Class selector sets the parameters of the position of the content (image) to the right of the container*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Sets the parameter of the main content/section of the page*/
+/* Element selector sets the parameter of the main content/section of the page*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class selectors select all elements with that class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -147,7 +148,7 @@ main {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Article element specifies independent, self-contained content. */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -165,7 +166,7 @@ article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Footer element defines a footer for a document or section. */
 footer {
     padding: 30px;
     clear: both;
