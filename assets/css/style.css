@@ -1,13 +1,16 @@
+/* Sets the universal selector of the element */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the background color of the body to white */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets the parameters of the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Sets the parameters of the header  h1 */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets the parameter of the header h1 but only for the class "seo" */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Sets the parameters of the nav bar in the header*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* Sets the parameter of the unordered list nav bar header*/
 header nav ul {
     list-style-type: none;
 }
 
+/* Sets the parameters of the listed items in the unordered list nav bar header*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets the parameters of links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets the parameter of the paragraph*/
 p {
     font-size: 16px;
 }
 
+/* Sets the parameters of the self-cotained content (image)*/
 figure {
     height: 800px;
     width: 100%;
@@ -59,16 +70,19 @@ figure {
     background-position: center;
 }
 
+/* Sets the parameters of the position of the content (image) to the left of the container*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Sets the parameters of the position of the content (image) to the right of the container*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets the parameter of the main content/section of the page*/
 main {
     width: 75%;
     display: inline-block;
